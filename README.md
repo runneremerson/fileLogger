@@ -3,7 +3,6 @@ fileLogger
 
 fileLogger是一个基于[Go](http://golang.org/)开发的可自动分割文件进行备份的异步日志库
 
-[![Build Status](https://drone.io/github.com/runneremerson/fileLogger/status.png)](https://drone.io/github.com/runneremerson/fileLogger/latest)
 [![Go Walker](http://gowalker.org/api/v1/badge)](http://gowalker.org/github.com/runneremerson/fileLogger)
 
 Features
