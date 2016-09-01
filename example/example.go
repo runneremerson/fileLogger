@@ -6,7 +6,7 @@
 package main
 
 import (
-	"github.com/aiwuTech/fileLogger"
+	"github.com/runneremerson/fileLogger"
 	"sync"
 )
 
