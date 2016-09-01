@@ -3,8 +3,8 @@ fileLogger
 
 fileLogger是一个基于[Go](http://golang.org/)开发的可自动分割文件进行备份的异步日志库
 
-[![Build Status](https://drone.io/github.com/aiwuTech/fileLogger/status.png)](https://drone.io/github.com/aiwuTech/fileLogger/latest)
-[![Go Walker](http://gowalker.org/api/v1/badge)](http://gowalker.org/github.com/aiwuTech/fileLogger)
+[![Build Status](https://drone.io/github.com/runneremerson/fileLogger/status.png)](https://drone.io/github.com/runneremerson/fileLogger/latest)
+[![Go Walker](http://gowalker.org/api/v1/badge)](http://gowalker.org/github.com/runneremerson/fileLogger)
 
 Features
 --------
@@ -20,7 +20,7 @@ Installation
 
 安装FileLogger使用"go get"命令
     
-    go get github.com/aiwuTech/fileLogger
+    go get github.com/runneremerson/fileLogger
     
 只基于[Go](http://golang.org/)标准库，不依赖第三方库
 
@@ -30,23 +30,18 @@ Update
 
 更新FileLogger使用"go get -u"命令
 
-    go get -u github.com/aiwuTech/fileLogger
+    go get -u github.com/runneremerson/fileLogger
 
 Usage
 -----
 
-用法请参考[example](https://github.com/aiwuTech/fileLogger/tree/master/example)，持续更新中
+用法请参考[example](https://github.com/runneremerson/fileLogger/tree/master/example)
 
 API
 ---
 
-请参考[Go Walker](https://gowalker.org/github.com/aiwuTech/fileLogger)
+请参考[Go Walker](https://gowalker.org/github.com/runneremerson/fileLogger)
 
-
-FAQ
----
-
-如果使用过程中遇到任何问题，希望主动与[aiwuTech团队](https://github.com/aiwuTech/)联系，也可提交[Issues](https://github.com/aiwuTech/fileLogger/issues)，我们会及时解决
 
 
 License
