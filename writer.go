@@ -91,7 +91,7 @@ func (f *FileLogger) Tracef(format string, v ...interface{}) {
 
 // same with Trace()
 func (f *FileLogger) T(format string, v ...interface{}) {
-	f.Trace(format, v...)
+	f.Tracef(format, v...)
 }
 
 // info log
@@ -104,7 +104,7 @@ func (f *FileLogger) Infof(format string, v ...interface{}) {
 
 // same with Info()
 func (f *FileLogger) I(format string, v ...interface{}) {
-	f.Info(format, v...)
+	f.Infof(format, v...)
 }
 
 // warning log
@@ -117,7 +117,7 @@ func (f *FileLogger) Warnf(format string, v ...interface{}) {
 
 // same with Warn()
 func (f *FileLogger) W(format string, v ...interface{}) {
-	f.Warn(format, v...)
+	f.Warnf(format, v...)
 }
 
 // error log
@@ -130,5 +130,5 @@ func (f *FileLogger) Errorf(format string, v ...interface{}) {
 
 // same with Error()
 func (f *FileLogger) E(format string, v ...interface{}) {
-	f.Error(format, v...)
+	f.Errorf(format, v...)
 }
